@@ -1,0 +1,7 @@
+<!-- Botones para cambiar idioma -->
+<button (click)="changeLanguage('es')">{{'spanish' | translate}}</button>
+<button (click)="changeLanguage('en')">{{'english' | translate}}</button>
+
+<!-- Traducciones de literales -->
+<p>{{'hello.world' | translate}}</p>
+<p>{{'hello.custom' | translate:{value: 'DDR'} }}</p>

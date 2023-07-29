@@ -1,0 +1,6 @@
+{
+    "hello.world": "¡Hola mundo!",
+    "hello.custom": "¡Hola {value}!",
+    "spanish": "Español",
+    "english": "Inglés"
+}
